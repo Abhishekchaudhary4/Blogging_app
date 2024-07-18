@@ -1,0 +1,33 @@
+{
+  "name": "blog-app-main",
+  "version": "1.0.0",
+  "description": "<H1 align =\"center\" > Blog App with AI Summarizer  </h1> <h5  align =\"center\">  Fullstack open source blogging application made with MongoDB, Express, React & Nodejs (MERN) </h5> <br/>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd Backend && node server.js"
+  },
+  "dependencies": {
+        "@google/generative-ai": "^0.14.1",
+        "@xenova/transformers": "^2.17.2",
+        "bcryptjs": "^2.4.3",
+        "compromise": "^14.13.0",
+        "cors": "^2.8.5",
+        "dotenv": "^15.0.0",
+        "express": "^4.17.2",
+        "express-async-handler": "^1.2.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.1.8",
+        "multer": "^1.4.4",
+        "natural": "^7.1.0",
+        "node-summarizer": "^1.0.7",
+        "nodemailer": "^6.7.2",
+        "nodemon": "^2.0.15",
+        "path": "^0.12.7",
+        "pm2": "^5.3.0",
+        "slugify": "^1.6.5"
+    },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
